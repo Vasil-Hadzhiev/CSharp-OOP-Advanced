@@ -1,34 +1,30 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace _06.GenericCountMethod
+public class StartUp
 {
-    public class StartUp
+    public static void Main()
     {
-        public static void Main()
+        var numberOfLines = int.Parse(Console.ReadLine());
+        var listOfBoxes = new List<Box<string>>();
+        for (int i = 0; i < numberOfLines; i++)
         {
-            var numberOfLines = int.Parse(Console.ReadLine());
-            var listOfBoxes = new List<Box<string>>();
-            for (int i = 0; i < numberOfLines; i++)
-            {
-                Box<string> boxStr = new Box<string>(Console.ReadLine());
-                listOfBoxes.Add(boxStr);
-            }
-
-            var element = Console.ReadLine();
-            var result = GetGreaterElementsCount(listOfBoxes, element);
-
-            Console.WriteLine(result);
+            Box<string> boxStr = new Box<string>(Console.ReadLine());
+            listOfBoxes.Add(boxStr);
         }
 
-        public static int GetGreaterElementsCount<T>(List<Box<T>> listOfBoxes, T element)
-            where T : IComparable<T>
-        {
-            return listOfBoxes.Count(b => b.Value.CompareTo(element) > 0);
+        var element = Console.ReadLine();
+        var result = GetGreaterElementsCount(listOfBoxes, element);
 
-        }
+        Console.WriteLine(result);
+    }
+
+    public static int GetGreaterElementsCount<T>(List<Box<T>> listOfBoxes, T element)
+        where T : IComparable<T>
+    {
+        return listOfBoxes.Count(b => b.Value.CompareTo(element) > 0);
+
     }
 }
+
