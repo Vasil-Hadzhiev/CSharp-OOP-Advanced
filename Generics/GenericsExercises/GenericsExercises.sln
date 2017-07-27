@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.CustomListSorter", "09.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.CustomListIterator", "10.CustomListIterator\10.CustomListIterator.csproj", "{D4050465-DF37-4EFB-90C0-0DB01F749D33}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.Tuple", "11.Tuple\11.Tuple.csproj", "{0970064E-300E-48F1-92D4-FE4CA3D9AE0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.Threeuple", "12.Threeuple\12.Threeuple.csproj", "{CFC2D1F6-C78D-4E3F-82B6-9C051BD6AF08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{D4050465-DF37-4EFB-90C0-0DB01F749D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4050465-DF37-4EFB-90C0-0DB01F749D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4050465-DF37-4EFB-90C0-0DB01F749D33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0970064E-300E-48F1-92D4-FE4CA3D9AE0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0970064E-300E-48F1-92D4-FE4CA3D9AE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0970064E-300E-48F1-92D4-FE4CA3D9AE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0970064E-300E-48F1-92D4-FE4CA3D9AE0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFC2D1F6-C78D-4E3F-82B6-9C051BD6AF08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC2D1F6-C78D-4E3F-82B6-9C051BD6AF08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC2D1F6-C78D-4E3F-82B6-9C051BD6AF08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC2D1F6-C78D-4E3F-82B6-9C051BD6AF08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
