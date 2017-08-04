@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.CardSuit", "01.CardSuit\01.CardSuit.csproj", "{C89511D8-61E1-4B8E-991C-DA872FC4CC90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CardRank", "02.CardRank\02.CardRank.csproj", "{93E0DBED-0B68-484C-91B5-86D756A8CB92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.CardPower", "03.CardPower\03.CardPower.csproj", "{32C56C86-C0F3-4261-B011-04AC5804C5E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.CardToString", "04.CardToString\04.CardToString.csproj", "{F0893659-3BBC-43A7-B553-10B225603639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.CardCompareTo", "05.CardCompareTo\05.CardCompareTo.csproj", "{FE53749C-47D1-4540-BE6D-437765D97849}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.CustomEnumAttribute", "06.CustomEnumAttribute\06.CustomEnumAttribute.csproj", "{64DD2834-E877-4306-9180-D6A3A3B8FD9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C89511D8-61E1-4B8E-991C-DA872FC4CC90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C89511D8-61E1-4B8E-991C-DA872FC4CC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C89511D8-61E1-4B8E-991C-DA872FC4CC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C89511D8-61E1-4B8E-991C-DA872FC4CC90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E0DBED-0B68-484C-91B5-86D756A8CB92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E0DBED-0B68-484C-91B5-86D756A8CB92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E0DBED-0B68-484C-91B5-86D756A8CB92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E0DBED-0B68-484C-91B5-86D756A8CB92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32C56C86-C0F3-4261-B011-04AC5804C5E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C56C86-C0F3-4261-B011-04AC5804C5E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C56C86-C0F3-4261-B011-04AC5804C5E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C56C86-C0F3-4261-B011-04AC5804C5E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0893659-3BBC-43A7-B553-10B225603639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0893659-3BBC-43A7-B553-10B225603639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0893659-3BBC-43A7-B553-10B225603639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0893659-3BBC-43A7-B553-10B225603639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE53749C-47D1-4540-BE6D-437765D97849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE53749C-47D1-4540-BE6D-437765D97849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE53749C-47D1-4540-BE6D-437765D97849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE53749C-47D1-4540-BE6D-437765D97849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64DD2834-E877-4306-9180-D6A3A3B8FD9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64DD2834-E877-4306-9180-D6A3A3B8FD9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64DD2834-E877-4306-9180-D6A3A3B8FD9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64DD2834-E877-4306-9180-D6A3A3B8FD9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
