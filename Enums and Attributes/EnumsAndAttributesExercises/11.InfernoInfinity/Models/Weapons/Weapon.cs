@@ -10,8 +10,8 @@ namespace _11.InfernoInfinity.Models.Weapons
         {
             this.Name = name;
             this.Rarity = rarity;
-            this.MinDamage = minDamage;
-            this.MaxDamage = maxDamage;
+            this.MinDamage = minDamage * (int)rarity;
+            this.MaxDamage = maxDamage * (int)rarity;
             this.Gems = new IGem[socketsNumber];
         }
 
@@ -27,11 +27,21 @@ namespace _11.InfernoInfinity.Models.Weapons
 
         public void AddGem(IGem gem, int socketIndex)
         {
+            if (socketIndex < 0 || socketIndex >= this.Gems.Length)
+            {
+                return;
+            }
+
             this.Gems[socketIndex] = gem;
         }
 
         public void RemoveGem(int socketIndex)
         {
+            if (socketIndex < 0 || socketIndex >= this.Gems.Length)
+            {
+                return;
+            }
+
             this.Gems[socketIndex] = null;
         }
 
