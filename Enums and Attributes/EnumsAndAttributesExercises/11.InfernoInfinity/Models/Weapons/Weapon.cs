@@ -27,7 +27,8 @@ namespace _11.InfernoInfinity.Models.Weapons
 
         public void AddGem(IGem gem, int socketIndex)
         {
-            if (socketIndex < 0 || socketIndex >= this.Gems.Length)
+            if (socketIndex < 0 
+                || socketIndex >= this.Gems.Length)
             {
                 return;
             }
@@ -37,7 +38,8 @@ namespace _11.InfernoInfinity.Models.Weapons
 
         public void RemoveGem(int socketIndex)
         {
-            if (socketIndex < 0 || socketIndex >= this.Gems.Length)
+            if (socketIndex < 0 
+                || socketIndex >= this.Gems.Length)
             {
                 return;
             }
