@@ -1,6 +1,8 @@
-﻿namespace _05.Security_Door
+﻿using _05.Security_Door.Models;
+
+namespace _05.Security_Door
 {
-    public class Program
+    public class StatUp
     {
         public static void Main() 
         {

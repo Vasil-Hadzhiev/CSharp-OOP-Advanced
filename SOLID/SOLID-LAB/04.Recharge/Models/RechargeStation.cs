@@ -1,4 +1,6 @@
-﻿namespace _04.Recharge
+﻿using _04.Recharge.Interfaces;
+
+namespace _04.Recharge.Models
 {
     public class RechargeStation
     {

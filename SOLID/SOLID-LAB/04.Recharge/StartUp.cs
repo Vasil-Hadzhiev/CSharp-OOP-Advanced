@@ -1,8 +1,8 @@
 ﻿namespace _04.Recharge
 {
-    public class Program
+    public class StartUp
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             
         }

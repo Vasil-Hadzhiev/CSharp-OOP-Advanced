@@ -1,4 +1,4 @@
-﻿namespace _05.Security_Door
+﻿namespace _05.Security_Door.Models
 {
     public abstract class SecurityCheck
     {

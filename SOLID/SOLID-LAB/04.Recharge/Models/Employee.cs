@@ -1,4 +1,6 @@
-﻿namespace _04.Recharge
+﻿using _04.Recharge.Interfaces;
+
+namespace _04.Recharge
 {
     public class Employee : Worker, ISleeper
     {
@@ -9,7 +11,7 @@
 
         public void Sleep()
         {
-            // sleep...
+            
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿namespace _05.Security_Door
 {
+    using _05.Security_Door.Models;
     using System;
 
     public class SecurityManager

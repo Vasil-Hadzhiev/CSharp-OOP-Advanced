@@ -1,23 +1,23 @@
-﻿namespace _05.Security_Door
+﻿namespace _05.Security_Door.Models
 {
-    public class PinCodeCheck : SecurityCheck
+    public class KeyCardCheck : SecurityCheck
     {
         private ISecurityUI securityUI;
 
-        public PinCodeCheck(ISecurityUI securityUI)
+        public KeyCardCheck(ISecurityUI securityUI)
         {
             this.securityUI = securityUI;
         }
 
-        private bool IsValid(int pin)
+        private bool IsValid(string code)
         {
             return true;
         }
 
         public override bool ValidateUser()
         {
-            int pin = securityUI.RequestPinCode();
-            if (IsValid(pin))
+            string code = securityUI.RequestKeyCard();
+            if (IsValid(code))
             {
                 return true;
             }
