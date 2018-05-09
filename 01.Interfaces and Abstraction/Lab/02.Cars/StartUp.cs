@@ -1,14 +1,18 @@
-﻿using System;
-
-public class StartUp
+﻿namespace _02.Cars
 {
-    public static void Main()
-    {
-        ICar seat = new Seat("Leon", "Grey");
-        ICar tesla = new Tesla("Model 3", "Red", 2);
+    using System;
+    using Interfaces;
+    using Models;
 
-        Console.WriteLine(seat.ToString());
-        Console.WriteLine(tesla.ToString());
+    public class StartUp
+    {
+        public static void Main()
+        {
+            ICar seat = new Seat("Leon", "Grey");
+            ICar tesla = new Tesla("Model 3", "Red", 2);
+
+            Console.WriteLine(seat.ToString());
+            Console.WriteLine(tesla.ToString());
+        }
     }
 }
-

@@ -1,18 +1,22 @@
-﻿using System;
-
-public class StartUp
+﻿namespace _01.Shapes
 {
-    public static void Main()
+    using System;
+    using Models;
+    using Interfaces;
+
+    public class StartUp
     {
-        var radius = int.Parse(Console.ReadLine());
-        IDrawable circle = new Circle(radius);
+        public static void Main()
+        {
+            var radius = int.Parse(Console.ReadLine());
+            IDrawable circle = new Circle(radius);
 
-        var width = int.Parse(Console.ReadLine());
-        var height = int.Parse(Console.ReadLine());
-        IDrawable rect = new Rectangle(width, height);
+            var width = int.Parse(Console.ReadLine());
+            var height = int.Parse(Console.ReadLine());
+            IDrawable rect = new Rectangle(width, height);
 
-        circle.Draw();
-        rect.Draw();
+            circle.Draw();
+            rect.Draw();
+        }
     }
 }
-
